@@ -29,16 +29,6 @@ export const projectsData = [
         role: 'Data Analyst',
         demo: 'https://app.powerbi.com/view?r=eyJrIjoiYzJlMDA5YTMtOGQ2MC00NzI3LWE4MTEtZGFlNjQxMzk4Zjc1IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9',
     },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        image: '/image/ayla.jpg',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        role: 'Full Stack Developer',
-    }
 ];
 
 
