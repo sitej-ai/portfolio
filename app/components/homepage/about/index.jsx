@@ -13,23 +13,26 @@ function AboutSection() {
         </span>
         <span className="h-36 w-[2px] bg-[#1a1443]"></span>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
-        <div className="order-2 lg:order-1">
+      <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1.3fr_0.9fr] lg:items-center lg:gap-14">
+        <div className="order-2 lg:order-1 lg:pr-4">
           <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
             Who I am?
           </p>
-          <p className="text-gray-200 text-sm lg:text-lg text-justify">
+          <p className="max-w-[680px] text-gray-200 text-sm lg:text-lg leading-relaxed">
             {personalData.description}
           </p>
         </div>
-        <div className="flex justify-center order-1 lg:order-2">
-          <Image
-            src={personalData.profile}
-            width={280}
-            height={280}
-            alt="Sitej Kumar Nayak"
-            className="h-[280px] w-[280px] rounded-lg object-cover transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
-          />
+        <div className="order-1 flex w-full justify-center lg:order-2 lg:-translate-x-16">
+          <div className="h-[280px] w-[280px] overflow-hidden rounded-[22px] border border-[#16f2b3]/20 bg-[#0d1224] p-[2px] shadow-xl shadow-violet-950/30">
+            <Image
+              src={personalData.profile}
+              width={280}
+              height={280}
+              alt="Sitej Kumar Nayak"
+              style={{ objectPosition: 'center' }}
+              className="h-full w-full rounded-[20px] object-contain object-center transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
+            />
+          </div>
         </div>
       </div>
     </div>
