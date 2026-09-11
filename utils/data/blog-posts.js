@@ -1,0 +1,58 @@
+export const blogPosts = [
+    {
+        id: 'example-data-storytelling',
+        slug: 'turning-messy-data-into-a-clear-business-story',
+        title: 'Turning Messy Data into a Clear Business Story',
+        description: 'A practical look at cleaning raw datasets, finding the signal, and presenting insights that help teams make better decisions.',
+        cover_image: '/image/crefin.jpg',
+        published_at: '2026-06-18T00:00:00Z',
+        reading_time_minutes: 5,
+        public_reactions_count: 24,
+        comments_count: 6,
+        tag_list: ['data-analysis', 'storytelling', 'business-intelligence'],
+        url: 'https://dev.to/t/data',
+        content: [
+            'Good analysis starts before the first chart. Raw business data often contains missing values, inconsistent labels, and duplicated records that can hide the real story.',
+            'A reliable workflow begins by defining the question, profiling the source tables, and documenting every transformation. Once the data is trustworthy, the analysis can focus on patterns that matter to the business.',
+            'The final step is communication. A strong data story gives every chart a purpose and connects the insight to a decision, action, or measurable outcome.',
+        ],
+    },
+    {
+        id: 'example-dashboard-design',
+        slug: 'designing-dashboards-people-can-actually-use',
+        title: 'Designing Dashboards People Can Actually Use',
+        description: 'The principles behind focused KPI layouts, useful chart choices, and dashboard experiences that move from questions to action.',
+        cover_image: '/image/travel.jpg',
+        published_at: '2026-05-27T00:00:00Z',
+        reading_time_minutes: 7,
+        public_reactions_count: 31,
+        comments_count: 8,
+        tag_list: ['power-bi', 'data-visualization', 'ux'],
+        url: 'https://dev.to/t/data_visualization',
+        content: [
+            'A dashboard should answer important questions quickly. Too many visuals, colors, and filters create friction instead of clarity.',
+            'Start with the decisions your audience needs to make. Use a small group of headline KPIs, then add trends and breakdowns that explain movement in those numbers.',
+            'Good dashboard design is not about decoration. It is about hierarchy, context, and making the next useful action obvious.',
+        ],
+    },
+    {
+        id: 'example-analytics-pipeline',
+        slug: 'from-source-tables-to-reliable-analytics',
+        title: 'From Source Tables to Reliable Analytics',
+        description: 'How a dependable analytics workflow connects SQL, quality checks, reusable models, and decision-ready reporting.',
+        cover_image: '/image/real-estate.jpg',
+        published_at: '2026-04-12T00:00:00Z',
+        reading_time_minutes: 6,
+        public_reactions_count: 18,
+        comments_count: 4,
+        tag_list: ['sql', 'data-engineering', 'analytics'],
+        url: 'https://dev.to/t/sql',
+        content: [
+            'Reliable reporting depends on reliable inputs. Analytics pipelines should make the path from source tables to business metrics easy to understand and repeat.',
+            'SQL transformations, validation checks, and clear naming conventions reduce confusion as a project grows. Small quality checks can prevent large reporting mistakes.',
+            'When the pipeline is dependable, analysts can spend more time exploring opportunities and less time investigating whether the numbers can be trusted.',
+        ],
+    },
+];
+
+export const exampleBlogs = blogPosts;
